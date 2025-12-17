@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>오두찬 - 자기소개</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: #111;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 4rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      letter-spacing: 2px;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 2rem;
+      color: #555;
+    }
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    .goals {
+      margin: 2rem 0;
+      text-align: left;
+      max-width: 400px;
+      list-style: none;
+      padding: 0;
+    }
+    .goals li {
+      margin: 0.7rem 0;
+      font-size: 1rem;
+      padding-left: 1.2rem;
+      position: relative;
+    }
+    .goals li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #111;
+      font-weight: bold;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      margin-top: 1rem;
+      border: 2px solid #111;
+      text-decoration: none;
+      color: #111;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #111;
+      color: #fff;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <h1>오두찬</h1>
+  <h2>앱 개발자가 되기 위한 목표</h2>
+  <p>
+    앱을 만들며 세상을 연결합니다.<br>
+    끊임없이 배우고, 없던걸 만들어내는 개발자가 되겠습니다.
+  </p>
+
+  <ul class="goals">
+    <li>프로그래밍 실력 꾸준히 성장시키기</li>
+    <li>앱 개발 프로젝트 경험 쌓기</li>
+    <li>관련 자격증 취득하기</li>
+    <li>실무에서 인정받는 개발자로 성장하기</li>
+  </ul>
+
+  <a href="mailto:yourmail@example.com" class="btn">Contact Me</a>
+
+  <footer>© 2025 오두찬</footer>
+</body>
